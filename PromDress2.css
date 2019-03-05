@@ -1,0 +1,37 @@
+/*
+* Jennifer Cardamone
+* Due Date
+* Prom Dress 2
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {
+    width: 90%;
+    margin: auto;
+    background-color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: lightpink; /* color for background */
+    color: white; /* color of text */
+}
+
+p { /* type selector for ALL paragraphs */
+    color: deeppink;
+}
+
+#navyTEXT { /* use an id to change text to navy */
+    color: navy;
+}
+
+.navyTEXT { /* use a class to change text to navy */
+    color: navy;
+}
